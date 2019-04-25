@@ -1,0 +1,32 @@
+{
+	"name": "alibayat/likeable",
+	"description": "Implementing a Like system for Laravel's Eloquent models.",
+	"license": "MIT",
+	"keywords": ["Laravel", "Likeable", "Eloquent"],
+	"authors": [
+		{
+		    "name": "Ali Bayat",
+		    "email": "ali.bayat@live.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.5.0",
+		"illuminate/database": ">=5.0",
+		"illuminate/support": ">=5.0"    
+	},
+	"autoload": {
+		"psr-4": {
+			"AliBayat\\Likeable\\": "src/"
+		}
+	},
+
+	"extra": {
+		"laravel": {
+			"providers": [
+				"AliBayat\\Likeable\\LikeableServiceProvider"
+			]
+		}
+	}
+
+}
