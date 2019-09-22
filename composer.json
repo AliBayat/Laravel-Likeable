@@ -1,5 +1,5 @@
 {
-	"name": "alibayat/likeable",
+	"name": "alibayat/laravel-likeable",
 	"description": "Implementing a Like system for Laravel's Eloquent models.",
 	"license": "MIT",
 	"keywords": ["Laravel", "Likeable", "Eloquent"],
