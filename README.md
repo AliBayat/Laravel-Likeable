@@ -17,7 +17,7 @@ php artisan migrate
 ```
 
 
-if you're using Laravel version 5.5+, Likeable package will be auto-discovered by Laravel. and if not: register your package in config/app.php providers array manually.
+if you're using Laravel version 5.5+, Likeable package will be auto-discovered by Laravel. and if not: register the package in config/app.php providers array manually.
 ```php
 'providers' => [
 	...
