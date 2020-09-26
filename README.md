@@ -5,13 +5,13 @@ This Package is for Laravel 5+ and makes it easy to implement Liking/Favoriting 
 
 #### Composer Install (for Laravel 5+)
 
-	composer require alibayat/likeable
+	composer require alibayat/laravel-likeable
 
 #### Publish and Run the migrations
 
 
 ```bash
-php artisan vendor:publish --provider="AliBayat\Likeable\LikeableServiceProvider" --tag=migrations
+php artisan vendor:publish --provider="AliBayat\LaravelLikeable\LikeableServiceProvider" --tag=migrations
 
 php artisan migrate
 ```
@@ -21,7 +21,7 @@ if you're using Laravel version 5.5+, Likeable package will be auto-discovered b
 ```php
 'providers' => [
 	...
-	\AliBayat\Likeable\LikeableServiceProvider::class,
+	\AliBayat\LaravelLikeable\LikeableServiceProvider::class,
 ],
 ```
 
@@ -34,7 +34,7 @@ if you're using Laravel version 5.5+, Likeable package will be auto-discovered b
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use AliBayat\Likeable\Likeable;
+use AliBayat\LaravelLikeable\Likeable;
 
 class Post extends Model
 {
