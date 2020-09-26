@@ -1,6 +1,6 @@
 <?php
 
-namespace AliBayat\Likeable;
+namespace AliBayat\LaravelLikeable;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
