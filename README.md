@@ -5,7 +5,7 @@ This Package is for Laravel 5+ and makes it easy to implement Liking/Favoriting 
 
 #### Composer Install (for Laravel 5+)
 
-	composer require alibayat/laravel-likeable
+	composer require alibayat/likeable
 
 #### Publish and Run the migrations
 
