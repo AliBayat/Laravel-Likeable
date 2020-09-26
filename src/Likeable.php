@@ -1,6 +1,6 @@
 <?php
 
-namespace AliBayat\Likeable;
+namespace AliBayat\LaravelLikeable;
 
 /**
  * Laravel Likeable Package by Ali Bayat.
