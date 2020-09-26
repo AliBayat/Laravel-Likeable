@@ -1,8 +1,8 @@
 {
-	"name": "alibayat/likeable",
+	"name": "alibayat/laravel-likeable",
 	"description": "Implementing a Like system for Laravel's Eloquent models.",
 	"license": "MIT",
-	"keywords": ["Laravel", "Likeable", "Eloquent"],
+	"keywords": ["Laravel", "Likeablity", "Eloquent"],
 	"authors": [
 		{
 		    "name": "Ali Bayat",
@@ -17,14 +17,14 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"AliBayat\\Likeable\\": "src/"
+			"AliBayat\\LaravelLikeable\\": "src/"
 		}
 	},
 
 	"extra": {
 		"laravel": {
 			"providers": [
-				"AliBayat\\Likeable\\LikeableServiceProvider"
+				"AliBayat\\LaravelLikeable\\LikeableServiceProvider"
 			]
 		}
 	}
