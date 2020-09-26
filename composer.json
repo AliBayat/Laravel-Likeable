@@ -2,7 +2,7 @@
 	"name": "alibayat/laravel-likeable",
 	"description": "Implementing a Like system for Laravel's Eloquent models.",
 	"license": "MIT",
-	"keywords": ["Laravel", "Likeablity", "Eloquent"],
+	"keywords": ["Laravel", "Eloquent", "Laravel-Likeable", "Laravel Likeable"],
 	"authors": [
 		{
 		    "name": "Ali Bayat",
