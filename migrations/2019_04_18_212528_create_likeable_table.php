@@ -6,6 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 /**
  * Laravel Likeable Package by Ali Bayat.
+ * Migrations
  */
 
 class CreateLikeableTable extends Migration
